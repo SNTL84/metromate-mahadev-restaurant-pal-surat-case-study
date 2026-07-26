@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahadev Thali · Digital Proposal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f1f5f9;
+            color: #0f172a;
+            line-height: 1.5;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            padding: 16px;
+        }
+        .proposal {
+            max-width: 1060px;
+            width: 100%;
+            background: white;
+            border-radius: 32px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            padding: 28px 40px 22px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .header-brand .name {
+            font-weight: 700;
+            font-size: 1.3rem;
+            letter-spacing: -0.5px;
+        }
+        .header-brand .badge {
+            background: rgba(255, 255, 255, 0.12);
+            padding: 4px 14px;
+            border-radius: 40px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+            color: #94a3b8;
+        }
+        .header-title {
+            text-align: right;
+        }
+        .header-title h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #facc15;
+        }
+        .header-title .sub {
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+        .client-strip {
+            background: #f8fafc;
+            padding: 14px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+            border-bottom: 1px solid #e9edf2;
+        }
+        .client-strip .resto {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #1e293b;
+        }
+        .client-strip .resto span {
+            color: #64748b;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+        .client-strip .location {
+            font-size: 0.9rem;
+            color: #475569;
+            background: #e9edf2;
+            padding: 4px 18px;
+            border-radius: 40px;
+        }
+        .client-strip .days {
+            font-weight: 700;
+            color: #f97316;
+            background: #fef3c7;
+            padding: 4px 18px;
+            border-radius: 40px;
+            font-size: 0.9rem;
+        }
+        .body {
+            padding: 24px 40px 28px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+        .service-card {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 18px 20px 16px;
+            border: 1px solid #e9edf2;
+            transition: 0.2s;
+        }
+        .service-card:hover {
+            border-color: #f97316;
+            box-shadow: 0 6px 18px rgba(249, 115, 22, 0.08);
+        }
+        .service-card .title {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: #0f172a;
+            margin-bottom: 6px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .service-card .title .icon {
+            font-size: 1.1rem;
+        }
+        .service-card ul {
+            list-style: none;
+            font-size: 0.8rem;
+            color: #334155;
+            line-height: 1.7;
+        }
+        .service-card ul li::before {
+            content: "• ";
+            color: #f97316;
+            font-weight: 700;
+        }
+        .service-card .time {
+            margin-top: 8px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #d97706;
+            background: #fef3c7;
+            display: inline-block;
+            padding: 1px 12px;
+            border-radius: 40px;
+        }
+        .service-card .hl {
+            color: #dc2626;
+            font-weight: 600;
+        }
+        .row-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .target-box {
+            background: #fefce8;
+            border-radius: 16px;
+            padding: 16px 20px;
+            border-left: 5px solid #f97316;
+        }
+        .target-box h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 6px;
+        }
+        .target-box ul {
+            list-style: none;
+            font-size: 0.8rem;
+            color: #334155;
+            line-height: 1.8;
+        }
+        .target-box ul li::before {
+            content: "✅ ";
+        }
+        .digital-summary {
+            background: #f0f9ff;
+            border-radius: 16px;
+            padding: 16px 20px;
+            border: 1px solid #dbeafe;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .digital-summary h4 {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 4px;
+        }
+        .digital-summary .tag {
+            display: inline-block;
+            font-size: 0.7rem;
+            font-weight: 600;
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 1px 12px;
+            border-radius: 40px;
+            margin-right: 6px;
+        }
+        .digital-summary .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 8px;
+            font-size: 0.8rem;
+            color: #334155;
+            margin-top: 4px;
+        }
+        .digital-summary .big {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #f97316;
+            line-height: 1.2;
+        }
+        .row-3col {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr 1fr;
+            gap: 16px;
+        }
+        .bonus-box {
+            background: #ecfdf5;
+            border-radius: 14px;
+            padding: 14px 18px;
+            border-left: 5px solid #10b981;
+        }
+        .bonus-box h5 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #065f46;
+            margin-bottom: 4px;
+        }
+        .bonus-box ul {
+            list-style: none;
+            font-size: 0.75rem;
+            color: #065f46;
+            line-height: 1.9;
+        }
+        .bonus-box ul li::before {
+            content: "🎁 ";
+        }
+        /* NEW: Physical & Direct Connections box */
+        .physical-box {
+            background: #fef3c7;
+            border-radius: 14px;
+            padding: 14px 18px;
+            border-left: 5px solid #d97706;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .physical-box h5 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #92400e;
+            margin-bottom: 4px;
+        }
+        .physical-box .grid-2col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4px 12px;
+            font-size: 0.75rem;
+            color: #78350f;
+        }
+        .physical-box .grid-2col .col {
+            list-style: none;
+            line-height: 1.9;
+        }
+        .physical-box .grid-2col .col li::before {
+            content: "▸ ";
+            color: #d97706;
+            font-weight: 700;
+        }
+        .physical-box .grid-2col .col li {
+            list-style: none;
+        }
+        .timeline-box {
+            background: #fefce8;
+            border-radius: 14px;
+            padding: 14px 18px;
+            border: 1px solid #fde68a;
+        }
+        .timeline-box h5 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 6px;
+        }
+        .timeline-steps {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .timeline-steps .step {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.7rem;
+            color: #334155;
+        }
+        .timeline-steps .step .num {
+            font-weight: 700;
+            color: #f97316;
+            background: #fef3c7;
+            padding: 0 8px;
+            border-radius: 20px;
+            font-size: 0.6rem;
+            min-width: 44px;
+            text-align: center;
+        }
+        .cta-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            background: #f1f5f9;
+            border-radius: 16px;
+            padding: 14px 24px;
+            margin-top: 4px;
+        }
+        .cta-row .left {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #0f172a;
+        }
+        .cta-row .left small {
+            font-weight: 400;
+            color: #64748b;
+            font-size: 0.8rem;
+        }
+        .cta-row .btn {
+            background: linear-gradient(135deg, #f97316, #f59e0b);
+            color: white;
+            font-weight: 700;
+            font-size: 0.95rem;
+            padding: 10px 32px;
+            border-radius: 60px;
+            text-decoration: none;
+            box-shadow: 0 6px 20px rgba(249, 115, 22, 0.3);
+            transition: 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .cta-row .btn:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 28px rgba(249, 115, 22, 0.4);
+        }
+        .footer {
+            background: #f8fafc;
+            padding: 12px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 6px 16px;
+            border-top: 1px solid #e9edf2;
+            font-size: 0.7rem;
+            color: #94a3b8;
+        }
+        .footer .links a {
+            color: #64748b;
+            text-decoration: none;
+            margin-left: 16px;
+            font-weight: 500;
+        }
+        .footer .links a:hover {
+            color: #0f172a;
+        }
+        @media (max-width: 820px) {
+            .services {
+                grid-template-columns: 1fr 1fr;
+            }
+            .row-2col {
+                grid-template-columns: 1fr;
+            }
+            .row-3col {
+                grid-template-columns: 1fr;
+            }
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px 24px;
+            }
+            .header-title {
+                text-align: left;
+                width: 100%;
+            }
+            .client-strip {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 12px 24px;
+            }
+            .body {
+                padding: 16px 20px 20px;
+            }
+            .cta-row {
+                flex-direction: column;
+                text-align: center;
+            }
+            .footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 12px 20px;
+            }
+            .footer .links a {
+                margin: 0 8px;
+            }
+            .physical-box .grid-2col {
+                grid-template-columns: 1fr;
+            }
+        }
+        @media (max-width: 500px) {
+            .services {
+                grid-template-columns: 1fr;
+            }
+            .header-brand .badge {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="proposal">
+
+        <!-- HEADER -->
+        <div class="header">
+            <div class="header-brand">
+                <span class="name">🚀 Milan · SNTL 84</span>
+                <span class="badge">AI Workflow Pro</span>
+            </div>
+            <div class="header-title">
+                <h1>Digital Marketing Proposal</h1>
+                <div class="sub">Mahadev Thali Restaurant · Surat</div>
+            </div>
+        </div>
+
+        <!-- CLIENT STRIP -->
+        <div class="client-strip">
+            <div class="resto">🍛 Mahadev Thali <span>| Restaurant</span></div>
+            <div class="location">📍 Pal Area, Surat</div>
+            <div class="days">⏱ 45‑Day Campaign</div>
+        </div>
+
+        <!-- BODY -->
+        <div class="body">
+
+            <!-- 3 Service Cards -->
+            <div class="services">
+                <!-- Facebook -->
+                <div class="service-card">
+                    <div class="title"><span class="icon">📘</span> Facebook Page Setup &amp; Posting</div>
+                    <ul>
+                        <li>Professional Page Setup</li>
+                        <li><span class="hl">25 High‑Quality Posts</span></li>
+                        <li>Menu &amp; Delivery Details</li>
+                        <li>WhatsApp Button Integration</li>
+                        <li>Local Surat Targeting</li>
+                    </ul>
+                    <div class="time">⏱ 10–15 Days</div>
+                </div>
+                <!-- Instagram -->
+                <div class="service-card">
+                    <div class="title"><span class="icon">📸</span> Instagram Setup &amp; Posting</div>
+                    <ul>
+                        <li>Professional Account Setup</li>
+                        <li><span class="hl">25 Attractive Posts</span></li>
+                        <li>Custom Highlight Covers</li>
+                        <li>Bio + WhatsApp Link</li>
+                        <li>Stories &amp; Content Strategy</li>
+                    </ul>
+                    <div class="time">⏱ 10–15 Days</div>
+                </div>
+                <!-- Physical -->
+                <div class="service-card">
+                    <div class="title"><span class="icon">🧾</span> Physical &amp; Ground Marketing</div>
+                    <ul>
+                        <li><span class="hl">300+ Visiting Cards / Flyers</span></li>
+                        <li>Distribution in Pal Area</li>
+                        <li><span class="hl">999+ Direct Connections</span></li>
+                        <li>Residence &amp; Office Targeting</li>
+                    </ul>
+                    <div class="time">⏱ 10–15 Days</div>
+                </div>
+            </div>
+
+            <!-- 2-col: Targeting + Digital Summary -->
+            <div class="row-2col">
+                <div class="target-box">
+                    <h4>📍 Pal Area, Surat – Targeting</h4>
+                    <ul>
+                        <li>Local Residence – families &amp; apartments</li>
+                        <li>Office Professionals – business centers</li>
+                        <li>WhatsApp &amp; Digital – Surat‑only audience</li>
+                        <li>Bilingual Content – English + Hindi</li>
+                    </ul>
+                </div>
+                <div class="digital-summary">
+                    <h4>📊 Complete Digital Marketing</h4>
+                    <div class="row">
+                        <span class="tag">25 FB Posts</span>
+                        <span class="tag">25 IG Posts</span>
+                        <span class="tag">Ad Management</span>
+                        <span class="tag">Engagement Tracking</span>
+                    </div>
+                    <div class="row" style="margin-top:6px;">
+                        <span>✅ Daily Stories</span>
+                        <span>✅ WhatsApp Catalogue</span>
+                        <span>✅ Bilingual Content</span>
+                    </div>
+                    <div style="margin-top:6px; display:flex; align-items:center; gap:12px;">
+                        <span class="big">45 Days</span>
+                        <span style="font-size:0.7rem; color:#475569;">total campaign</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3-col: Bonus + Physical & Direct Connections + Timeline (Why removed) -->
+            <div class="row-3col">
+                <!-- Bonus -->
+                <div class="bonus-box">
+                    <h5>🎁 FREE BONUS (Included)</h5>
+                    <ul>
+                        <li>WhatsApp Catalogue Configuration</li>
+                        <li>Google Business Profile Optimization</li>
+                        <li>Digital Menu Creation</li>
+                        <li>Weekly Analytics Report</li>
+                    </ul>
+                </div>
+
+                <!-- NEW: Physical & Direct Connections -->
+                <div class="physical-box">
+                    <h5>📦 Physical &amp; Direct Connections</h5>
+                    <div class="grid-2col">
+                        <ul class="col">
+                            <li><strong>300+</strong> Flyers / Cards</li>
+                            <li>Pal Area Distribution</li>
+                            <li>Follow-up Tracking</li>
+                        </ul>
+                        <ul class="col">
+                            <li><strong>999+</strong> Direct Contacts</li>
+                            <li>WhatsApp Messages</li>
+                            <li>Lead Generation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Timeline -->
+                <div class="timeline-box">
+                    <h5>⏰ Campaign Timeline</h5>
+                    <div class="timeline-steps">
+                        <div class="step"><span class="num">Days 1‑15</span> FB + IG Setup &amp; 25 posts each</div>
+                        <div class="step"><span class="num">Days 1‑15</span> Physical: 300 flyers + 999 connections</div>
+                        <div class="step"><span class="num">Days 16‑45</span> Ads management &amp; optimization</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta-row">
+                <div class="left">
+                    ✅ Get More Customers in 45 Days
+                    <small>· 45 दिनों में अधिक ग्राहक</small>
+                </div>
+                <a href="https://wa.me/919727413309?text=Hello%20Milan%2C%20I%20am%20interested%20in%20your%20Digital%20Marketing%20Proposal%20for%20Mahadev%20Thali%20Restaurant"
+                class="btn" target="_blank">
+                📞 Contact Now on WhatsApp
+            </a>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <span>Milan · SNTL 84 | Surat, Gujarat</span>
+        <span>📱 +91 97274 13309</span>
+        <div class="links">
+            <a href="https://desidevloper.com/" target="_blank">Website</a>
+            <a href="https://wa.me/919727413309" target="_blank">WhatsApp</a>
+            <a href="https://www.linkedin.com/in/sntl2784" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
