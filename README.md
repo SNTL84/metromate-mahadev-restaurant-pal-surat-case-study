@@ -36,7 +36,30 @@ Planned and coordinated installation of CCTV surveillance systems across the din
 - Operational vigilance framework for day-to-day compliance monitoring.
 
 ### 4. Zomato & Swiggy Onboarding
+
 Managed full registration and go-live process on **Zomato** and **Swiggy** delivery portals, including menu structuring, pricing formulas, and commission-adjusted rate cards — see `/docs/menu-pricing/Mahdev_Thali_Restaurant_Pricing-Zomato-Formula.xlsx` and `/docs/menu-pricing/Zomato-Mahadev-Restarurant-Menu-Sub-page-dining-pricing.xlsx`.
+
+<div align="center">
+
+[![Zomato](https://img.shields.io/badge/Zomato-Listed%20%26%20Live-E23744?style=for-the-badge&logo=zomato&logoColor=white)](https://www.zomato.com)&nbsp;&nbsp;[![Swiggy](https://img.shields.io/badge/Swiggy-Listed%20%26%20Live-FC8019?style=for-the-badge&logo=swiggy&logoColor=white)](https://www.swiggy.com)
+
+</div>
+
+---
+
+### 4a. UPI & POS Payment Machine Setup ✅
+
+All UPI payment channels and POS machine terminals are fully configured and live at the restaurant counter. Customers can pay seamlessly via QR code or card swipe.
+
+<div align="center">
+
+[![Paytm](https://img.shields.io/badge/Paytm-POS%20Setup%20✅-002970?style=for-the-badge&logo=paytm&logoColor=white)](https://business.paytm.com)&nbsp;&nbsp;[![PhonePe](https://img.shields.io/badge/PhonePe-POS%20Setup%20✅-5f259f?style=for-the-badge&logo=phonepe&logoColor=white)](https://www.phonepe.com/business-solutions/)&nbsp;&nbsp;[![Google Pay](https://img.shields.io/badge/Google%20Pay-POS%20Setup%20✅-4285F4?style=for-the-badge&logo=googlepay&logoColor=white)](https://pay.google.com/intl/en_in/about/business/)
+
+</div>
+
+> 💳 **POS terminal** enabled for card + UPI tap payments at the billing counter. All three major UPI rails (Paytm, PhonePe, Google Pay) are QR-mapped and operationally verified.
+
+---
 
 ### 5. Vendor Alignment (Frozen, Fresh & Restaurant Supply)
 Established and coordinated relationships with frozen goods, fresh produce, and general restaurant supply vendors, aligning delivery schedules with vendor **billing cycles** to streamline procurement and cash flow.
@@ -72,6 +95,7 @@ Delivered structured operational documents including staff timing schedules (Eng
 - ✅ CCTV surveillance operational across premises
 - ✅ Complete administrative & vigilance paperwork cleared
 - ✅ Live listings on Zomato & Swiggy with optimized pricing formulas
+- ✅ UPI POS terminals active — Paytm · PhonePe · Google Pay
 - ✅ Vendor supply chains (frozen, fresh, general supplies) aligned to billing cycles
 - ✅ Social media handles active and running promotional campaigns
 
@@ -84,26 +108,45 @@ MetroMate provides **performance marketing** and **full-scale business enablemen
 - Social Media Marketing Services
 - Restaurant/Retail Operations Setup (POS, CCTV, Compliance)
 - Food Delivery Platform Onboarding (Zomato, Swiggy)
+- UPI & POS Payment Machine Setup (Paytm, PhonePe, Google Pay)
 - Vendor & Supply Chain Coordination
 
 > 🤝 **Collab What's Costing You Time**
 
-## ✍️ Signature
+---
 
-| SNTL 84 | Agentic AI Workflow Professional |
+## ✍️ Signature — SNTL 84
 
-🤝 **Collab What's Costing You Time**
+<div align="center">
 
-Lead Generation, Fulfillment Automation, Bench Resource Availability, Full-Stack Builds, AI Workflows, and Supply Chain Business Intelligence.
+```
+╔══════════════════════════════════════════════════════════╗
+║         SNTL 84  ·  Agentic AI Workflow Professional     ║
+║   Lead Gen · Fulfillment Automation · Full-Stack · AI    ║
+╚══════════════════════════════════════════════════════════╝
+```
 
-🚀 Follow for practical AI automation insights & founder systems.
+🚀 **Building AI-native systems for founders who refuse to stay manual.**
 
-🌐 Website: [desidevloper.com](https://desidevloper.com)
-💬 WhatsApp: [wa.me/919727413309](https://wa.me/919727413309)
-🔗 LinkedIn: [linkedin.com/in/sntl2784](https://linkedin.com/in/sntl2784)
-💻 GitHub: [github.com/SNTL84](https://github.com/SNTL84)
-📸 Instagram: [@desibiztrade](https://www.instagram.com/desibiztrade)
+Lead Generation · Fulfillment Automation · Bench Resource Availability  
+Full-Stack Builds · AI Workflows · Supply Chain Business Intelligence
+
+</div>
+
+---
+
+<div align="center">
+
+[![Website](https://img.shields.io/badge/🌐%20Website-desidevloper.com-01696f?style=for-the-badge)](https://desidevloper.com)&nbsp;[![WhatsApp](https://img.shields.io/badge/💬%20WhatsApp-Chat%20Now-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/919727413309)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-SNTL%202784-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/sntl2784)&nbsp;[![GitHub](https://img.shields.io/badge/GitHub-SNTL84-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SNTL84)&nbsp;[![Instagram](https://img.shields.io/badge/Instagram-@desibiztrade-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/desibiztrade)
+
+[![Email](https://img.shields.io/badge/Email-3goldenlotusroots@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:3goldenlotusroots@gmail.com)&nbsp;[![Aratt.ai](https://img.shields.io/badge/Aratt.ai-@desidevloper-8B5CF6?style=for-the-badge)](https://aratt.ai/user/@desidevloper)
+
+</div>
+
+---
 
 ### ⭐ Interested in a similar setup for your restaurant or local business?
 
-Reach out via [WhatsApp](https://wa.me/919727413309), [LinkedIn](https://linkedin.com/in/sntl2784), [GitHub](https://github.com/SNTL84), or [Instagram](https://www.instagram.com/desibiztrade) to discuss a full-scale branch launch, POS/CCTV setup, delivery platform onboarding, vendor alignment, or social media growth package.
+Reach out via [WhatsApp](https://wa.me/919727413309), [LinkedIn](https://linkedin.com/in/sntl2784), [GitHub](https://github.com/SNTL84), or [Instagram](https://www.instagram.com/desibiztrade) to discuss a full-scale branch launch, POS/CCTV setup, UPI payment terminal configuration, delivery platform onboarding, vendor alignment, or social media growth package.
