@@ -4,6 +4,8 @@
 ![Status](https://img.shields.io/badge/Project-Completed-brightgreen) ![Timeline](https://img.shields.io/badge/Delivery-30%20Days-blue) ![Location](https://img.shields.io/badge/Location-Pal%2C%20Surat-orange)
 
 > **MetroMate Performance Marketing Service** partnered with **Mahadev Restaurant** to plan, launch, and operationalize their new branch in the **Pal, Surat** area — covering everything from digital infrastructure and compliance to vendor onboarding and social media growth. The entire project — from ground-zero setup to a fully operational, digitally listed restaurant — was delivered in **30 days**.
+>
+> 🤝 **Collab What's Costing You Time**
 
 ---
 
@@ -45,8 +47,6 @@ Set up and managed the restaurant's social media presence (Instagram, Facebook, 
 ### 7. Operations Documentation
 Delivered structured operational documents including staff timing schedules (English & Hindi), full dining menu with sub-page pricing, and a complete operations manual — see `/docs/operations/`.
 
----
-
 ## 📂 Repository Structure
 
 ```
@@ -65,8 +65,6 @@ Delivered structured operational documents including staff timing schedules (Eng
 └── README.md
 ```
 
----
-
 ## 📈 Results in 30 Days
 
 - ✅ Fully operational new branch in Pal, Surat
@@ -76,8 +74,6 @@ Delivered structured operational documents including staff timing schedules (Eng
 - ✅ Live listings on Zomato & Swiggy with optimized pricing formulas
 - ✅ Vendor supply chains (frozen, fresh, general supplies) aligned to billing cycles
 - ✅ Social media handles active and running promotional campaigns
-
----
 
 ## 🏢 About MetroMate Performance Marketing
 
@@ -90,28 +86,24 @@ MetroMate provides **performance marketing** and **full-scale business enablemen
 - Food Delivery Platform Onboarding (Zomato, Swiggy)
 - Vendor & Supply Chain Coordination
 
-> 🤝 **Collab — What's Costing You Time?**
-
----
+> 🤝 **Collab What's Costing You Time**
 
 ## ✍️ Signature
 
-```
 | SNTL 84 | Agentic AI Workflow Professional |
 
-Lead Generation, Fulfillment Automation, Bench Resource Availability,
-Full-Stack Builds, AI Workflows, and Supply Chain Business Intelligence.
+🤝 **Collab What's Costing You Time**
+
+Lead Generation, Fulfillment Automation, Bench Resource Availability, Full-Stack Builds, AI Workflows, and Supply Chain Business Intelligence.
 
 🚀 Follow for practical AI automation insights & founder systems.
 
-🌐 Website: https://desidevloper.com
-💬 WhatsApp: https://wa.me/919727413309
-🔗 LinkedIn: https://linkedin.com/in/sntl2784
-💻 GitHub: https://github.com/SNTL84
-📸 Instagram: https://www.instagram.com/desibiztrade
-```
-
----
+🌐 Website: [desidevloper.com](https://desidevloper.com)
+💬 WhatsApp: [wa.me/919727413309](https://wa.me/919727413309)
+🔗 LinkedIn: [linkedin.com/in/sntl2784](https://linkedin.com/in/sntl2784)
+💻 GitHub: [github.com/SNTL84](https://github.com/SNTL84)
+📸 Instagram: [@desibiztrade](https://www.instagram.com/desibiztrade)
 
 ### ⭐ Interested in a similar setup for your restaurant or local business?
-Reach out via [WhatsApp](https://wa.me/919727413309) or [LinkedIn](https://linkedin.com/in/sntl2784) to discuss a full-scale branch launch, POS/CCTV setup, delivery platform onboarding, vendor alignment, or social media growth package.
+
+Reach out via [WhatsApp](https://wa.me/919727413309), [LinkedIn](https://linkedin.com/in/sntl2784), [GitHub](https://github.com/SNTL84), or [Instagram](https://www.instagram.com/desibiztrade) to discuss a full-scale branch launch, POS/CCTV setup, delivery platform onboarding, vendor alignment, or social media growth package.
