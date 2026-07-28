@@ -20,6 +20,12 @@
 | Delivery Timeline | 30 Days (Setup to Go-Live) |
 | Status | ✅ Completed |
 
+## 📲 Mahadev Restaurant — Live Links
+
+[WhatsApp](https://wa.me/918306069631) [Zomato](https://www.zomato.com/surat/mahadev-restaurant-pal-gam) [Instagram](https://www.instagram.com/mahadevrestuarant/)
+
+---
+
 ---
 
 ## 🚀 Scope of Work
