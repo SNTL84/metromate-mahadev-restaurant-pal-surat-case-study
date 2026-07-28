@@ -76,6 +76,9 @@ Set up and managed the restaurant's social media presence (Instagram, Facebook, 
 ### 7. Operations Documentation
 Delivered structured operational documents including staff timing schedules (English & Hindi), full dining menu with sub-page pricing, and a complete operations manual — see `/docs/operations/`.
 
+### 8. Inventory Management & Stock Rotation Support
+Implemented structured inventory tracking for raw materials, frozen goods, and daily kitchen stock, along with FIFO-based stock rotation practices to minimize wastage and ensure freshness across all ingredient categories.
+
 ## 📂 Repository Structure
 
 ```
@@ -104,6 +107,7 @@ Delivered structured operational documents including staff timing schedules (Eng
 - ✅ UPI POS terminals active — Paytm · PhonePe · Google Pay
 - ✅ Vendor supply chains (frozen, fresh, general supplies) aligned to billing cycles
 - ✅ Social media handles active and running promotional campaigns
+- ✅ Inventory management & FIFO-based stock rotation support implemented
 
 ## 🏢 About MetroMate Performance Marketing
 
@@ -116,6 +120,7 @@ MetroMate provides **performance marketing** and **full-scale business enablemen
 - Food Delivery Platform Onboarding (Zomato, Swiggy)
 - UPI & POS Payment Machine Setup (Paytm, PhonePe, Google Pay)
 - Vendor & Supply Chain Coordination
+- Inventory Management & Stock Rotation Support
 
 > 🤝 **Collab What's Costing You Time**
 
